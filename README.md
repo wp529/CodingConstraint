@@ -36,7 +36,7 @@ Android编码规范约束工具，使用**自定义lint规则**对代码进行�
 
      | 控件         |                                                   检查的属性 |
      | :----------- | -----------------------------------------------------------: |
-     | 所有控件     | 若使用了android:visibility="gone"或者android:visibility="invisible" tools:visibility="visible" |
+     | 所有控件     | 若使用了android:visibility="gone"或者android:visibility="invisible"那么必须添加tools:visibility="visible" |
      | TextView     |                 必须有android:text="XXX"或者tools:text="XXX" |
      | ImageView    |                   必须有android:src="XXX"或者tools:src="XXX" |
      | EditText     | 必须有android:text="XXX"或者tools:text="XXX"或者android:hint="XXX"或者android:hint="XXX" |
