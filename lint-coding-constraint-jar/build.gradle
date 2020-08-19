@@ -1,0 +1,26 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+jar {
+    manifest{
+        //main 函数地址类
+        attributes("Lint-Registry-v2": "com.wp.lint_coding_constraint_jar.IssueRegister")
+    }
+    from{
+        ["./src/main/java/data/words.txt"]
+    }
+    into('assets') {
+        from 'assets'
+    }
+}
+
+configurations {
+    lintJarOutput
+}
+
+dependencies {
+    lintJarOutput files(jar)
+    compileOnly 'com.android.tools.lint:lint-api:27.0.1'
+    compileOnly 'com.android.tools.lint:lint-checks:27.0.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}

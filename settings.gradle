@@ -1,0 +1,4 @@
+include ':lint-coding-constraint-arr'
+include ':lint-coding-constraint-jar'
+include ':app'
+rootProject.name = "CodingConstraint"
