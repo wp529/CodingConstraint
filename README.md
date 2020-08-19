@@ -1,0 +1,2 @@
+# CodingConstraint
+Android编码规范约束工具，使用自定义lint规则对代码进行编码规范扫描，对不符合编码规范的代码进行error告警，统一项目组编码规范。
