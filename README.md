@@ -10,6 +10,10 @@ Android编码规范约束工具，使用**自定义lint规则**对代码进行�
 
 ![img](https://raw.githubusercontent.com/wp529/CodingConstraint/master/pic/4.png)
 
+##### 使用方式
+
+将lint-coding-constraint-arr和lint-coding-constraint-jar导入项目中,然后在需要进行编码规范扫描的module添加implementation project(path: ':lint-coding-constraint-arr')然后rebuild，稍等片刻即可生效
+
 ##### 包含的自定义规则有
 
 1. 命名相关
