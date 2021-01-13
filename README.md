@@ -1,6 +1,6 @@
 ### CodingConstraint
 
-Android编码规范约束工具，使用**自定义lint规则**对代码进行编码规范扫描，对不符合编码规范的代码进行**error告警**，统一项目组编码规范。
+是否还在为项目命名风格不一致而头痛？是否还在为预览布局文件一片空白而捶胸顿足？Android编码规范约束工具，使用**自定义lint规则**对代码进行编码规范扫描，对不符合编码规范的代码进行**error告警**，强制统一项目组编码规范，解决你的烦恼。
 
 ![img](https://raw.githubusercontent.com/wp529/CodingConstraint/master/pic/1.png)
 
